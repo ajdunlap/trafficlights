@@ -67,4 +67,5 @@ class App ():
     self.root.after(waittime,self.updateTraffic)
 
 app = App (lights.sm)
-cProfile.run("app.root.mainloop ()")
+app.root.mainloop()
+# cProfile.run("app.root.mainloop ()")
